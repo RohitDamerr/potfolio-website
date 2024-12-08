@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rohit Damer - Frontend Developer | C++ Developer Portfolio">
+  <title>Rohit Damer - Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+  <!-- Navbar Section -->
+  <nav id="navbar">
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <h1>Rohit Damer</h1>
+      <p>Frontend Developer | C++ Developer</p>
+      <p>Engineering College Ajmer</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Rohit Damer, a 3rd-year student at Engineering College Ajmer, specializing in Computer Science. I am
+        passionate about frontend development and have experience working with HTML, CSS, JavaScript, React, and C++. I
+        have also worked on various web development projects such as building landing pages, to-do lists, portfolio
+        websites, and e-commerce sites.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <h3>HTML</h3>
+        </div>
+        <div class="skill">
+          <h3>CSS</h3>
+        </div>
+        <div class="skill">
+          <h3>JavaScript</h3>
+        </div>
+        <div class="skill">
+          <h3>React</h3>
+        </div>
+        <div class="skill">
+          <h3>C++</h3>
+        </div>
+        <div class="skill">
+          <h3>Java</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--projects section-->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Fleetcom Landing Page</h3>
+        <p>A responsive landing page for Fleetcom, designed with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>To-Do List</h3>
+        <p>A simple to-do list web app built with HTML, CSS, and JavaScript to manage tasks.</p>
+      </div>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>This portfolio website showcasing my skills and projects, developed using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>Calculator</h3>
+        <p>A basic calculator app built with HTML, CSS, and JavaScript for simple arithmetic operations.</p>
+      </div>
+      <div class="project">
+        <h3>E-Commerce Website</h3>
+        <p>Currently under development: A complete e-commerce website using React and JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <div class="container">
+      <div id="resumeee">
+        <h2>Resume</h2>
+      </div>
+      <a href="resume.pdf" download>Download My Resume (PDF)</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:rohitdamer2006@gmail.com">rohitdamer2006@gmail.com</a></p>
+      <form id="contact-form" onsubmit="return validateForm()">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Rohit Damer. All rights reserved.</p>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+
+</html>
